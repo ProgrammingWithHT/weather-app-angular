@@ -1,0 +1,116 @@
+
+.weather-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    /* background: rgb(167, 119, 119); */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+}
+.sec-box{
+    background: rgba(0, 0, 0, 0.534);
+    /* border-radius: 10% 25%; */
+    box-shadow: 0 2px 4px rgb(255, 254, 254);
+    flex-direction: column;
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 13%/13%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Center layout */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main background */
+.weather-main {
+  width: 380px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('../assets/images/cold-bg.jpg');
+  background-size: cover;
+  background-position: center;
+
+  transition: 0.4s ease;
+}
+
+/* Warm theme */
+.weather-main.warm {
+  background-image: url('../assets/images/warm-bg.jpg');
+}
+
+/* Card */
+.card {
+  /* width: 100%; */
+  padding: 25px;
+  border-radius: 20px;
+
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header-box{
+    display: flex;
+    flex-direction: column;
+
+}
+.search-box{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10%/50%;
+}
+.btn{
+    border: none;
+    border-radius: 10%/50%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: antiquewhite;
+}
+p{
+    color: whitesmoke;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.extra-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  color: white;
+  font-size: 14px;
+}
